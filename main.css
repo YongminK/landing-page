@@ -77,4 +77,37 @@ body{
 		margin: 10px auto;
 		grid-row-gap: 10px;
 	}
+	.container{
+		margin: 10px;
+	}
+
+}
+@media (max-width: 320px){
+	#form-block{
+		grid-template-rows: 50% 50%;
+	}
+	#form{
+		display: grid;
+		grid-template-rows: 20px 20px;
+		margin: 10px auto;
+		grid-row-gap: 10px;
+	}
+	.container{
+		margin: 5px;
+	}
+	.nav-bar{
+		width: 100%;
+		justify-content: center;
+		height: 50px;
+	}
+	.nav-link{
+		width: 33%;
+		font-size: 14px;
+		padding: 10px;
+	}
+	#video{
+		width: 300px;
+		height: 160px;
+
+	}
 }

@@ -1,6 +1,8 @@
 body{
 	font-family: 'Kalam', cursive;
+	margin: 0;
 }
+
 #nav-bar{
 	display: block;
 	position: fixed;
@@ -66,7 +68,7 @@ body{
 }
 @media (max-width: 768px) {
 	#about p{
-		padding-right: 0;
+		padding-right: 30px;
 	}
 	#form-block{
 		grid-template-rows: 50% 50%;
@@ -78,11 +80,18 @@ body{
 		grid-row-gap: 10px;
 	}
 	.container{
-		margin: 10px;
+		margin: 20px;
 	}
 
 }
-@media (max-width: 320px){
+@media (max-width: 500px){
+	.nav-link{
+		width: 35%;
+		font-size: 14px;
+		padding: 10px;
+	}
+}
+@media (max-width: 340px){
 	#form-block{
 		grid-template-rows: 50% 50%;
 	}
@@ -99,11 +108,6 @@ body{
 		width: 100%;
 		justify-content: center;
 		height: 50px;
-	}
-	.nav-link{
-		width: 33%;
-		font-size: 14px;
-		padding: 10px;
 	}
 	#video{
 		width: 300px;
